@@ -20,7 +20,7 @@ class RanksSingle < ApplicationRecord
     Event.c_find(eventId)
   end
 
-  # Alises for SQL camelCase columns
+  # Aliases for SQL camelCase columns
   alias_attribute :event_id, :eventId
   alias_attribute :country_rank, :countryRank
   alias_attribute :continent_rank, :continentRank
